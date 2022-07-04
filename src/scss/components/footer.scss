@@ -1,0 +1,15 @@
+.footer {
+  
+  padding: 64px 0 70px;
+
+  & .container {
+    display: block;
+    text-align: center;
+  }
+  
+  & .copy {
+    font-size: 13px;
+    font-weight: $font-weight-thin;
+    color: $color-light;
+  }
+}

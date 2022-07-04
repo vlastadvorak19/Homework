@@ -1,0 +1,16 @@
+.header {
+
+  &__wrapper {
+
+    background-color: $color-graybase;
+    padding: 24px 0;
+    width: 100%;
+
+    & .burger {
+      margin-left: auto;
+    }
+
+  }
+
+}
+

@@ -1,0 +1,93 @@
+// Document
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background: $color-bg;
+  color: $color-base;
+
+  font-family: $font-family;
+  font-size: $font-size;
+  letter-spacing: $letter-spacing;
+  line-height: $line-height;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+
+  &::selection {
+    color: $color-base;
+    background: $color-graybase;
+  }
+}
+
+// Links
+a {
+  color: $color-link;
+  cursor: pointer;
+  text-decoration: underline;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+// Media
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+// Text
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+
+// View
+.container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.list-reset {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 17px 28px;
+  font-weight: 100;
+  border-radius: 0px;
+  color: $color-light;
+  line-height: 1;
+}
