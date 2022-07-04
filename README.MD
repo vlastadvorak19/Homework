@@ -25,4 +25,5 @@
     ├── /scss/                  # SCSS styles
         └── /components/        # Scss components
 ├── /static/                    # Static files ( images )
+├── /vendor/                    # Blade 
 
