@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('includes.s-hero')
-@include('includes.s-features')
+@include('includes.hero')
+@include('includes.features')
 
 @endsection
