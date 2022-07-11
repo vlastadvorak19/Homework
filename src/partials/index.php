@@ -10,7 +10,7 @@ $data -> title = "Vlastimil Dvorak";
 $data -> description = "Homework website";
 $data -> links = ['HOME', 'ABOUT ME', 'MY WORK'];
 $data -> hero = (object) [ 'title' => 'JACK JACKSON', 'text' => 'What a boundert joseph stalin groomed sportacus testosterone trophy freestyle derek griffiths rebot moustache, derek griffithsgroomed testosterone trophy marquess of queensbury freestyle jeseph stalin rebot moustache Nostrillis tickler sportucus a bounder groomed?','button' => 'LEARN MORE'];
-$data -> images = (object) [ 'hero_image' => 'assets/img/woman.png'];
+$data -> images = (object) [ 'hero_image' => 'assets/img/woman.png', 'hero_image_name' => 'woman'];
 $data -> footer = "© Jack Jackson 2020";
 $data -> subtitle = "WHAT I DID";
 $data-> cards = [
