@@ -43,7 +43,7 @@ body {
 a {
   color: $color-link;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -80,14 +80,3 @@ h3 {
     margin: 0;
 }
 
-.btn {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  font-size: 17px;
-  padding: 17px 28px;
-  font-weight: 100;
-  border-radius: 0px;
-  color: $color-light;
-  line-height: 1;
-}
