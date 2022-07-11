@@ -1,12 +1,6 @@
     <footer class="footer">
-      <div class="container">
-              <p class="copy">    
-              {{$footer}}
-              </p>
-      </div>
+        <p class="footer__text">{{$footer}}</p>  
     </footer>
     <script src="/assets/js/bundle.js" defer></script>
   </body>
 </html>
-  
-
